@@ -1,0 +1,13 @@
+server:
+  port: 8089
+
+spring:
+  application:
+    name: eureka-consumer
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8671/eureka/
+  instance:
+    prefer-ip-address: true
